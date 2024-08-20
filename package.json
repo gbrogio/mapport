@@ -1,0 +1,47 @@
+{
+  "name": "@pinport/mapport",
+  "version": "0.0.1",
+  "description": "360º Model view extension for pinport",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "exports": [
+    "./dist/index.js"
+  ],
+  "repository": {
+    "url": "git+https://github.com/gbrogio/pinport-mapport.git"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "keywords": [
+    "pinport",
+    "mapport",
+    "api",
+    "sdk",
+    "pins",
+    "map",
+    "alert"
+  ],
+  "scripts": {
+    "build": "tsup"
+  },
+  "author": "gbrogio <guilhermebrogio.ps@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@biomejs/biome": "1.8.3",
+    "@types/node": "^20.14.10",
+    "@types/three": "^0.167.1",
+    "tsup": "^8.1.2",
+    "typescript": "^5.5.3"
+  },
+  "bugs": {
+    "url": "https://github.com/gbrogio/pinport/issues"
+  },
+  "homepage": "https://github.com/gbrogio/pinport#readme",
+  "dependencies": {
+    "@pinport/client": "../../client",
+    "three": "^0.167.1"
+  }
+}
